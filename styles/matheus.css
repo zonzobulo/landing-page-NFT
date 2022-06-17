@@ -1,0 +1,619 @@
+/* HEADER */
+body {
+    background-color: #1c121f;
+}
+
+header {
+    padding: 37px 153px 0px 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo-container img {
+    width: 66px;
+    height: 66px;
+}
+
+/* NAV BAR */
+
+nav {
+    display: flex;
+    gap: 64px;
+}
+
+nav .nav-item {
+    width: 100%;
+    color: white;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav .nav-item.active {
+    color: #FFCE4E;
+    border-bottom: 2px solid #FFCE4E;
+}
+
+/* BOTÃO CONNECT WALLET */
+
+.connect-wallet-container {
+    border: 1px solid #FFCE4E;
+}
+
+.connect-wallet-container button {
+    background: #E9D7A71A;
+    border: none;
+    padding: 21px 30px 22px 30px;
+    color: #FFCE4E;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+.conteudo-hero-section {
+    display: flex;
+    justify-content: space-between;
+    /* height: 100vh;
+    background: linear-gradient(90deg, #372839 50%, rgba(79, 70, 78, 0.45) 50%);    TESTANDO FUNDO COM COR DIVIDIDA */
+}
+
+.conteudo-esquerdo {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-left: 80px;
+}
+
+.conteudo-direito {
+    display: flex;
+    flex-direction: column;
+    margin-right: 146px;
+}
+
+/* LADO ESQUERDO */
+
+/* TITULO */
+
+.titulo-principal {
+    margin-top: 151px;
+    font-family: Oxanium;
+    font-weight: 700;
+    font-size: 65px;
+    width: 610px;
+}
+
+.titulo-principal h1 {
+    color: #F5FBF2;
+}
+
+.titulo-principal span {
+    color: #FFCE4E;
+}
+
+/* BOTÕES */
+
+.btn-container {
+    display: flex;
+    margin-top: 77px;
+    gap: 38px;
+}
+
+.btn-container #btn-create {
+    border: 1px solid #FFCE4E;
+}
+
+#btn-explore {
+    background: #FFCE4E;
+    border: none;
+    padding: 15px 50px 15px 50px;
+    color: black;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#btn-create {
+    background: #E9D7A71A;
+    border: none;
+    padding: 15px 55px 15px 50px;
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* COUNTER */
+
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 121px;
+}
+
+.counter-container h3 {
+    font-family: Oxanium;
+    font-weight: 700;
+    font-size: 42px;
+    color: #F5FBF2;
+}
+
+.counter-container p {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9B9E9A;
+}
+
+/* LADO DIREITO */
+
+.container-card {
+    margin-top: 125px;
+    width: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-card img {
+    width: 456px;
+    height: 630px;
+}
+
+/* CABEÇALHO CARD */
+
+.header-imagem {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%);
+    position: absolute;
+    top: 24px;
+    left: 68px;
+}
+
+.header-imagem h4 {
+    font-family: Oxanium;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 22.5px;
+    padding: 0px 54px 16px 39px;
+}
+
+.header-imagem p {
+    padding: 18px 75px 7px 39px;
+    font-family: Oxanium;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    color: #E4DEE7;
+}
+
+/* RODAPÉ CARD */
+
+.rodape-imagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 81%;
+    position: absolute;
+    top: 80%;
+    height: auto;
+}
+
+.rodape-imagem h4 {
+    font-family: 'Oxanium';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    color: #16091B;
+    padding: 33px 0px 0px 60px;
+}
+
+.rodape-imagem p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #594D5E;
+    padding: 0px 0px 38px 60px;
+}
+
+#start-bid {
+    background: #FFCE4E;
+    border: none;
+    padding: 12px 56px 12px 56px;
+    color: black;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 39px;
+}
+
+/* LOGO CLIENTES */
+
+.clientes-logo {
+    padding: 155px 177px 104px 187px;
+}
+
+.clientes-logo div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+
+/* LIVE AUCTIONS */
+
+.live-auctions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.subtitulo-container {
+    max-width: auto;
+    margin-top: 75px;
+    position: relative;
+}
+
+.subtitulo-container::before {
+    content: " ";
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background: #8613A5;
+    margin-top: 10px;
+    margin-left: -25px;
+    z-index: -1;
+}
+
+
+.subtitulo-container h2 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 130px;
+    color: #F5FBF2;
+}
+
+/* CARDS */
+
+.place-a-bid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D2942;
+    margin-top: 84px;
+    max-width: 390px;
+}
+
+/* CAROUSEL CARDS */
+
+.carousel-cards {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 80px;
+    gap: 42px;
+}
+
+/* CONTAINER IMAGEM */
+
+.art-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding: 22px 22px 0px 22px;
+    position: relative;
+}
+
+.art-container img {
+    width: 290px;
+}
+
+.art-container p {
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #F5FBF2;
+    background: linear-gradient(125.33deg, #8613A5 18.61%, rgba(250, 250, 250, 0.65) 137.4%);
+    padding: 8px 22px;
+}
+
+/* INFORMAÇÕES IMAGEM */
+
+/* LINHA 1 */
+
+.content-info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 28px 22px 0px 22px;
+}
+
+.icone-criador {
+    display: flex;
+    gap: 5px;
+}
+
+.icone-criador h4 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5FBF2;
+}
+
+.icone-criador p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #BDAAC1;
+}
+
+.icone-criador img {
+    width: 40px;
+    height: 40px;
+}
+
+.favoritos {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.favoritos h4 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #76607A;
+}
+
+.favoritos img {
+    width: 20px;
+    height: 20px;
+}
+
+/* LINHA 2 */
+
+.content-info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 22px 0px 22px;
+}
+
+.content-info2 p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #C6BFC8;
+}
+
+.content-info2 h4 {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 20px;
+    color: #F5FBF2;
+}
+
+/* BOTÃO PLACE A BID */
+
+.btn-place {
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FDE8B3;
+    margin: 30px 22px 24px 22px;
+    width: auto;
+}
+
+.btn-place button {
+    background: none;
+    border: none;
+    padding: 21px 90px 21px 100px;
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* BOTÃO VIEW ALL */
+
+.btn-view-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFCE4E;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.btn-view-all button {
+    background: none;
+    border: none;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+    padding: 22px 65px;
+}
+
+/* HOW IT WORKS */
+
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitulo-container1 {
+    padding-top: 80px;
+}
+
+.subtitulo-container1 h2 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #F5FBF2;
+}
+
+/* PASSOS */
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 110px 132px 174px 132px;
+}
+
+.steps>div>img {
+    width: 86px;
+    height: 86px;
+}
+
+.steps div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps>div>p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFCE4E;
+    padding-top: 15px;
+}
+
+.arrows {
+    width: 90px;
+    height: 7px;
+}
+
+/* POPULAR COLLECTIONS */
+
+.popular-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* SUBTITULO */
+
+.subtitulo-container2 {
+    margin-top: 60px;
+}
+
+.subtitulo-container2::before {
+    content: " ";
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background: #E03054;
+    margin-top: -10px;
+    margin-left: -16px;
+    z-index: -1;
+}
+
+.subtitulo-container2 h2 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #F5FBF2;
+}
+
+/* CARROSEL */
+
+.carousel-collections {
+    display: flex;
+    justify-content: flex-start;
+    gap: 36px;
+    align-items: center;
+    margin: 106px 0px 0px 80px;
+    width: 100%;
+}
+/* CONTAINER */
+
+.collection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3D2942;
+}
+
+.collection-container>div>img {
+    padding: 24px 24px 0px 24px;
+    width: 380px;
+}
+
+/* INFORMAÇÃO LADO ESQUERDO */
+.info-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 36px 24px;
+}
+
+.icone-criador2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icone-criador2 img {
+    width: 60px;
+    height: 60px;
+}
+
+.icone-criador2 h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #F5FBF2;
+}
+
+/* ID COLEÇÃO */
+
+.id-collection p {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #C2B5C6;
+
+}
