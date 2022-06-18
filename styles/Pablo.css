@@ -1,0 +1,432 @@
+.categorias {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.categorias-titulo {
+    color: #F5FBF2;;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 65px;
+    margin: 80px auto;
+}
+
+.categorias-titulo::before {
+    content: " ";
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    background: #8613A5;
+    margin-top: -15px;
+    margin-left: -25px;
+    z-index: -1;
+}
+
+.categorias::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 170px;
+    background-color:#D53D5C;
+    margin-left: -400px;
+    margin-top: 70px;
+    z-index: -1;
+    filter: blur(230px);
+}
+
+.conteudo-categorias {
+    display: flex;
+    max-width: 100%;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.categoria-container {
+    height: 100%;
+    margin-right: 40px;
+    padding: 32px;
+    background: #3D2942;
+}
+
+.categoria-container > div:first-child {
+    position: relative;
+    width: 350px;
+    height: 306px;
+    margin-bottom: 16px;
+}
+
+.categoria-container div img {
+    max-width: 100%;
+}
+
+#btn-place {
+    padding: 20px 50px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border: none;
+    background-color: #FFCE4E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.perfil-container > div > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #BDAAC1;
+}
+
+
+.perfil {
+    display: flex;
+    align-items: center;
+    max-width: 192px;
+}
+
+.perfil img {
+    width: 58px;
+    margin-right: 12px;
+}
+
+.perfil h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+
+.perfil p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #BDAAC1;
+}
+
+.perfil-container > div:last-child {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.categoria-container > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.categoria-container > div:last-child h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #C6BFC8;
+}
+
+.categoria-container > div:last-child p {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+
+#btn-view-all {
+    margin-top: 84px;
+    padding: 24px 64px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+    color: #F5FBF2;
+    border: 1px solid #FFCE4E;
+    margin-bottom: 80px;
+}
+
+.top-creators {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%);
+    position: relative;
+}
+
+.creators-titulo {
+    color: #F5FBF2;;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 65px;
+    margin: 110px auto 80px;
+    position: static;
+    z-index: 2;
+}
+
+.creators-titulo::before {
+    content: " ";
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    background: #E03054;
+    margin-top: -15px;
+    margin-left: -25px;
+    z-index: -1;
+}
+
+.creators-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 50px;
+    max-width: 1288px;
+    margin: 0 75px;
+}
+
+.creator-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 608px;
+    height: 156px;
+    margin-bottom: 56px;
+    background: #302034;
+    box-shadow: inset 2px 0px 0px #E03054;
+}
+
+.creator-container > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.creator-container > div > img {
+    width: 104px;
+    height: 104px;
+    margin-left: 29px;
+}
+
+.creator-container > div > div > h3 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+
+.creator-container > div > div > p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+}
+
+.creator-container > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  15px 45px;
+    border-left: 3px solid #49374E;
+}
+
+.creator-container > div > h3 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+
+.creator-container > div > p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #908294;
+}
+
+.top-creators #btn-view-all {
+    margin: 80px auto;
+    width: max-content;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 117px 0;
+    background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%);
+    background-image: url("/assets/Pattern.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe h2 {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    text-align: center;
+    color: #F5FBF2;
+}
+
+.subscribe div {
+    display: flex;
+    width: 680px;
+    height: 96px;
+    border: 1px solid #E7B226;
+    gap: 24px;
+}
+
+.subscribe div input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #F5FBF2;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 56px;
+}
+
+.subscribe div input::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #A48EA9;
+}
+
+.subscribe div button {
+    width: 244px;
+    height: 96px;
+    border: none;
+    background: #E7B226;
+}
+
+
+footer {
+    background-color: #251928;;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 80px;
+}
+
+.nft {
+    display: flex;
+    gap: 50px;
+}
+
+.nft > img {
+    width: 194px;
+    height: 194px;
+}
+
+.nft > div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 391px;
+}
+
+.nft > div > h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #96839B;
+}
+
+.social {
+    display: flex;
+    gap: 36px;
+}
+
+.nft > div > p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #96839B;
+}
+
+.foooter-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.foooter-links h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5FBF2;
+    margin-bottom: 18px;
+}
+
+.foooter-links ul {
+    list-style: none;
+    line-height: 50px;
+}
+
+.foooter-links ul  li a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration-line: underline;
+    color: #96839B;
+}
