@@ -6,32 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Landing Page</title>
+
     <link rel="stylesheet" href="../styles/fonts.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/matheus.css">
     <link rel="stylesheet" href="../styles/Pablo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- HERO SECTION -->
-    <section class="hero-section">
-        <!-- HEADER -->
-        <header>
+
+    <!-- HEADER -->
+    <header>
+        <section class="header-container">
             <div class="logo-container">
                 <img src="../assets/nft-logo.png" alt="Logo NFT">
             </div>
-
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <nav class="nav-bar">
-                <a class="nav-item active" href="#">Explore</a>
-                <a class="nav-item" href="#">Creators</a>
-                <a class="nav-item" href="#">Community</a>
+
+                <ul>
+                    <li><a class="nav-item" href="#">Explore</a></li>
+                    <li><a class="nav-item" href="#">Creators</a></li>
+                    <li><a class="nav-item" href="#">Community</a></li>
+                </ul>
+                <div class="connect-wallet-container">
+                    <button>Connect Wallet</button>
+                </div>
             </nav>
+        </section>
+    </header>
 
-            <div class="connect-wallet-container">
-                <button>Connect Wallet</button>
-            </div>
-        </header>
 
+    <!-- HERO SECTION -->
+    <section class="hero-section">
         <!-- CONTEUDO PRINCIPAL -->
 
         <section class="conteudo-hero-section">
@@ -457,14 +469,14 @@
         <div class="categorias-titulo">
             <h2>Explore by Categories</h2>
         </div>
-        
+
         <div class="conteudo-categorias">
             <div class="categoria-container">
                 <div>
                     <img src="../assets/explore-by-categories1.png">
                     <button id="btn-place">Place a Bid</button>
-                </div> 
-                <!-- INFORMAÇÕES PERFIL -->                       
+                </div>
+                <!-- INFORMAÇÕES PERFIL -->
                 <div class="perfil-container">
                     <div class="perfil">
                         <img src="../assets/top-creators3.png">
@@ -482,14 +494,14 @@
                 <div>
                     <h3>Current Bid</h3>
                     <p>4.98 ETH</p>
-                </div>       
+                </div>
             </div>
 
             <div class="categoria-container">
                 <div>
                     <img src="../assets/explore-by-categories2.png">
-                </div> 
-                <!-- INFORMAÇÕES PERFIL -->                       
+                </div>
+                <!-- INFORMAÇÕES PERFIL -->
                 <div class="perfil-container">
                     <div class="perfil">
                         <img src="../assets/top-creators3.png">
@@ -507,14 +519,14 @@
                 <div>
                     <h3>Current Bid</h3>
                     <p>4.98 ETH</p>
-                </div>       
+                </div>
             </div>
 
             <div class="categoria-container">
                 <div>
                     <img src="../assets/explore-by-categories3.png">
-                </div> 
-                <!-- INFORMAÇÕES PERFIL -->                       
+                </div>
+                <!-- INFORMAÇÕES PERFIL -->
                 <div class="perfil-container">
                     <div class="perfil">
                         <img src="../assets/top-creators3.png">
@@ -532,14 +544,14 @@
                 <div>
                     <h3>Current Bid</h3>
                     <p>4.98 ETH</p>
-                </div>       
+                </div>
             </div>
 
             <div class="categoria-container">
                 <div>
                     <img src="../assets/explore-by-categories2.png">
-                </div> 
-                <!-- INFORMAÇÕES PERFIL -->                       
+                </div>
+                <!-- INFORMAÇÕES PERFIL -->
                 <div class="perfil-container">
                     <div class="perfil">
                         <img src="../assets/top-creators3.png">
@@ -557,7 +569,7 @@
                 <div>
                     <h3>Current Bid</h3>
                     <p>4.98 ETH</p>
-                </div>       
+                </div>
             </div>
         </div>
         <button id="btn-view-all">View All</button>
@@ -612,7 +624,7 @@
                     <p>Items</p>
                 </div>
             </div>
-            
+
             <div class="creator-container">
                 <div>
                     <img src="../assets/top-creators4.png">
