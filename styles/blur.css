@@ -1,0 +1,102 @@
+.hero-section::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 170px;
+    background-color:rgba(231, 178, 38, 0.8);
+    margin-top: 25%;
+    left: 0.04%;
+    right: 80.21%;
+    transform: rotate(-4.93deg);
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    border-radius: 50%;
+    background-color:#bb00ab88;
+    margin-top: -23%;
+    left: 53.34%;
+    right: 25.33%;
+    filter: blur(180px);
+    z-index: -1;
+}
+
+
+.live-auctions::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 170px;
+    background-color:rgba(231, 178, 38, 0.7);
+    left: 13.06%;
+    right: 72.69%;
+    margin-top: -50%;
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.how-it-works::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 170px;
+    background-color:#d53d5ba6;;
+    left: 50.26%;
+    right: 36.87%;
+    margin-top: -5%;
+    filter: blur(180px);
+    z-index: -1;
+}
+
+.popular-collections::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 170px;
+    margin-top: -34%;
+    left: 25%;
+    right: 73.8%;
+    background: #60E7CE;
+    filter: blur(190px);
+    z-index: -1;
+}
+
+.categorias::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 170px;
+    background-color:#D53D5C;
+    left: 23%;
+    margin-top: 8%;
+    filter: blur(200px);
+    z-index: 1;
+}
+
+.subscribe::before {
+    content: "";
+    position: absolute;
+    width:  100px;;
+    height: 100px;
+    background-color:#FFCE4E;
+    left: 65%;
+    margin-top: 18%;
+    z-index: 1;
+    filter: blur(140px);
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    width:  180px;;
+    height: 160px;
+    background-color:#D53D5C;
+    margin-top: -8%;
+    left: 0%;
+    filter: blur(200px);
+}

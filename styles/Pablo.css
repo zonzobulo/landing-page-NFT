@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    background: #251928;
 }
 
 .categorias-titulo {
@@ -15,6 +16,7 @@
     font-size: 32px;
     line-height: 65px;
     margin: 80px auto;
+    z-index: 2;
 }
 
 .categorias-titulo::before {
@@ -27,18 +29,6 @@
     margin-top: -15px;
     margin-left: -25px;
     z-index: -1;
-}
-
-.categorias::after {
-    content: "";
-    position: absolute;
-    width: 220px;
-    height: 170px;
-    background-color:#D53D5C;
-    margin-left: -400px;
-    margin-top: 70px;
-    z-index: -1;
-    filter: blur(230px);
 }
 
 .conteudo-categorias {
