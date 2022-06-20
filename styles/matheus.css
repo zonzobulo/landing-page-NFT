@@ -636,7 +636,7 @@
     color: #C2B5C6;
 }
 
-@media(min-width: 1169px) and (max-width: 1279px){
+@media(min-width: 1215px) and (max-width: 1279px){
     .connect-wallet-container {
         display: none;
     }
@@ -650,7 +650,7 @@
         width: 100%;
     }
 }
-@media (max-width: 1168px) {
+@media (max-width: 1214px) {
     .connect-wallet-container {
         display: none;
     }
