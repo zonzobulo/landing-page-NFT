@@ -282,6 +282,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background: linear-gradient(336.61deg, #251928 16.25%, rgba(37, 25, 40, 0) 91.6%);
 }
 
 .subtitulo-container {
