@@ -458,29 +458,6 @@
     font-size: 18px;
 }
 
-/* BOTÃO VIEW ALL */
-
-.btn-view-all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #FFCE4E;
-    margin-top: 70px;
-    margin-bottom: 80px;
-}
-
-.btn-view-all button {
-    background: none;
-    border: none;
-    font-family: 'Work Sans';
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 22px;
-    letter-spacing: 0.05em;
-    color: #F5FBF2;
-    padding: 22px 65px;
-}
-
 /* HOW IT WORKS */
 
 .how-it-works {
@@ -650,6 +627,7 @@
         width: 100%;
     }
 }
+
 @media (max-width: 1214px) {
     .connect-wallet-container {
         display: none;

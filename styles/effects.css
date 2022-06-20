@@ -1,0 +1,88 @@
+/* IMAGENS */
+
+
+/* #hero-card-img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+} */
+
+
+#live-auctions-img:hover, #categories-img:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#steps-img:hover, #popular-collections-img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+#top-creators-img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* BOTÕES */
+
+.connect-wallet-container button:hover, #btn-create:hover{
+    background: #FFCE4E;
+    color: black;
+    transition: 0.4s;
+}
+
+#btn-explore:hover {
+    background: #E9D7A71A;
+    color: #FFCE4E;
+    transition: 0.4s;
+}
+
+#start-bid:hover{
+    background: #FFCE4E;
+    color: black;
+    transition: 0.4s;
+    box-shadow: 3px 3px 4px black;
+}
+
+.btn-place button:hover {
+    background: #FFCE4E;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s;
+    box-shadow: 1px 1px 3px 0px black;
+}
+
+#btn-view-all:hover {
+    background: #FFCE4E;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#btn-place:hover{
+    background: #E9D7A71A;
+    color: #FFCE4E;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#subscribe:hover {
+    background: #FFCE4E;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+/* LINKS */
+
+.nav-item:hover {
+    color: #FFCE4E;
+    border-bottom: 2px solid #FFCE4E;
+    transition: .4s;
+}
+
+.footer-item :hover {
+    color: #FFCE4E;
+    transition: .4s;
+}

@@ -346,6 +346,9 @@
 }
 
 .subscribe div button {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 22px;
     width: 244px;
     height: 96px;
     border: none;
