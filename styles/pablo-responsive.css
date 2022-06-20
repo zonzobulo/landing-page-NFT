@@ -1,0 +1,236 @@
+@media (max-width: 1168px){
+
+    footer {
+        padding: 57px 16px 11px;
+        flex-wrap: wrap;
+    }
+    
+    footer > div:first-child{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nft {
+        flex: 1 1 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 44px;
+    }
+
+    .social {
+        justify-content: center;
+        
+    }
+
+    footer > div:nth-child(2){
+        flex: 1;
+        text-align: center;
+    }
+
+    footer > div:nth-child(3){
+        flex: 1;
+        text-align:center;
+    }
+
+}
+
+@media (max-width: 768px){
+    .categorias {
+        overflow-x: auto;
+    }
+
+    .conteudo-categorias {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        overflow: auto;
+        justify-content: center;
+    }
+
+    .categorias-titulo {
+        max-width: 300px;
+        font-size: 36px;
+        line-height: 65px;
+        margin-top: 100px auto 80px;
+    }
+
+    .categorias-titulo::before {
+        width: 75px;
+        height: 75px;
+    }
+
+    .categoria-container {
+        margin: 0 16px;
+        margin-bottom: 42px;
+        padding: 32px;
+    }
+
+    .categoria-container > div:first-child {
+        width: auto;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    #btn-place {
+        top: 70%;
+        left: 30%;
+    }
+
+    #btn-view-all {
+        font-size: 18px;
+        padding: 13px 50px;
+    }
+
+    .top-creators {
+        background-image: url("../assets/Pattern.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .creators-titulo {
+        align-self: center;
+        font-size: 28px;
+        line-height: 60px; 
+        margin: 75px auto;
+    }
+
+    .creators-titulo::before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .creators-conteudo {
+        gap: 48px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .creator-container {
+        padding: 20px 0;
+        max-width: 100%;
+        height: auto;
+        margin: 0 16px;
+    }
+
+    .creator-container > div > img {
+        margin-left: 12px;
+    }
+
+    .creator-container > div > div > h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > div > p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .subscribe {
+        padding: 100px 16px 74px;
+    }
+
+    .subscribe h2 {
+        font-size: 36px;
+        line-height: 45px;
+        background-image: url("../assets/Pattern.png");
+        background-position: top;
+    }
+
+    .subscribe div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        border: none;
+    }
+
+    .subscribe div input {
+        padding: 20px 32px;
+        margin-top: 80px;
+        border: 1px solid #E7B226;
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe div button {
+        font-size: 24px;
+        line-height: 35px;
+        width: auto;
+        height: auto;
+        padding: 14px 34px;
+    }
+
+    .nft > img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .nft > div > h3 {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .foooter-links h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .footer ul li a {
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    #btn-place {
+        top: 50%;
+        left: 10%;
+        padding: 10px 25px;
+    }
+
+    .creator-container > div > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .creator-container > div:last-child {
+        padding:  5px 25px;
+    }
+
+    .creator-container > div > div > h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > div > p {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-container > div > p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
