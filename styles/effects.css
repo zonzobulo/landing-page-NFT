@@ -7,13 +7,15 @@
 } */
 
 
-#live-auctions-img:hover, #categories-img:hover {
+#live-auctions-img:hover,
+#categories-img:hover {
     z-index: 1;
     transform: scale(1.1);
     transition: 0.4s;
 }
 
-#steps-img:hover, #popular-collections-img:hover{
+#steps-img:hover,
+#popular-collections-img:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
@@ -25,7 +27,8 @@
 
 /* BOTÕES */
 
-.connect-wallet-container button:hover, #btn-create:hover{
+.connect-wallet-container button:hover,
+#btn-create:hover {
     background: #FFCE4E;
     color: black;
     transition: 0.4s;
@@ -37,7 +40,7 @@
     transition: 0.4s;
 }
 
-#start-bid:hover{
+#start-bid:hover {
     background: #FFCE4E;
     color: black;
     transition: 0.4s;
@@ -59,7 +62,7 @@
     transition: 0.4s;
 }
 
-#btn-place:hover{
+#btn-place:hover {
     background: #E9D7A71A;
     color: #FFCE4E;
     font-weight: bold;
