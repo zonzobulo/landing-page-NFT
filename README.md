@@ -4,7 +4,7 @@
 
 
 ## 🔵
-Atividade feita em conjunto com Pablo Kauã. Github: https://github.com/pablokaua
+Atividade feita em conjunto com [Pablo Kauã](https://github.com/pablokaua)
 
 
 ## 💻 Estartando Devs:
