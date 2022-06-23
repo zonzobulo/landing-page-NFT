@@ -8,7 +8,7 @@ O Estartando Devs é um projeto social e tem como objetivo transformar o mundo a
 
 
 
-## 📜 Sobre
+## 📜 Sobre:
 Recriar layout responsivo do Figma usando HTML e CSS
 
 ## 🚀 Tecnologias:
