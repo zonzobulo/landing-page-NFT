@@ -11,14 +11,10 @@ O Estartando Devs é um projeto social e tem como objetivo transformar o mundo a
 ## 📜 Sobre
 Recriar layout responsivo do Figma usando HTML e CSS
 
----
-
 ## 🚀 Tecnologias:
 * HTML
 * CSS
 * Git e Github
-
----
 
 ## 🧾 Resultado:
 <img src="assets/result/hero-sector.png" align="center">
