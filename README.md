@@ -23,23 +23,23 @@ Recriar layout responsivo do Figma usando HTML e CSS
 ## 🧾 Resultado:
 <img src="assets/result/hero-sector.png" align="center">
 
----
+##
 
 <img src="assets/result/live-auctions-sector.png" align="center">
 
----
+##
 
 <img src="assets/result/popular-collections-sector.png" align="center">
 
----
+##
 
 <img src="assets/result/explore-categories-sector.png" align="center">
 
----
+##
 
 <img src="assets/result/top-creators-sector.png" align="center">
 
----
+##
 
 <img src="assets/result/footer-sector.png" align="center">
 
